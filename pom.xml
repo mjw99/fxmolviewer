@@ -260,6 +260,12 @@
 			<version>${janino.version}</version>
 		</dependency>
 
+<dependency>
+    <groupId>com.massisframework.sunflow</groupId>
+    <artifactId>sunflow</artifactId>
+    <version>0.07.3i</version>
+</dependency>
+
 	</dependencies>
 	<distributionManagement>
 	    <repository>

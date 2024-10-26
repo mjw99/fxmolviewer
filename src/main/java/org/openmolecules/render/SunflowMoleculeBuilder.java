@@ -6,10 +6,11 @@ import com.actelion.research.chem.Molecule;
 import com.actelion.research.chem.StereoMolecule;
 import com.actelion.research.chem.conf.Conformer;
 import com.actelion.research.chem.conf.VDWRadii;
-import org.sunflow.core.shader.ColorProvider;
 
 import java.awt.*;
 import java.util.Arrays;
+
+import org.openmolecules.fx.sunflow.ColorProvider;
 
 public class SunflowMoleculeBuilder extends SunflowPrimitiveBuilder implements MoleculeBuilder {
 	public static final int OVERRIDE_MODE_ALL = 0;

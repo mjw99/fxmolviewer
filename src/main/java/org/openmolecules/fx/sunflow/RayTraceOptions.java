@@ -37,7 +37,6 @@ import org.openmolecules.fx.viewer3d.nodes.DashedRod;
 import org.openmolecules.mesh.MoleculeSurfaceAlgorithm;
 import org.openmolecules.render.SunflowMoleculeBuilder;
 import org.openmolecules.render.SunflowPrimitiveBuilder;
-import org.sunflow.core.shader.ColorProvider;
 import org.sunflow.math.Point3;
 
 public class RayTraceOptions {

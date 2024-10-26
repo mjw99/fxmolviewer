@@ -90,11 +90,6 @@ public class RayTraceFrameDisplay implements Display {
 		} );
 	}
 
-	@Override
-	public boolean imageCancelled() {
-		return frame.isClosed();
-	}
-
 	@SuppressWarnings("serial")
 	private static class FXRenderFrame extends Stage {
 		RayTraceImagePanel imagePanel;

@@ -74,9 +74,4 @@ public class BufferedImageDisplay implements Display {
     public synchronized BufferedImage getImage() {
         return image;
     	}
-
-    @Override
-    public boolean imageCancelled() {
-        return false;   // return true to stop all rendering threads
-        }
 	}

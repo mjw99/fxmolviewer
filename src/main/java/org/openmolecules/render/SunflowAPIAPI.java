@@ -1,5 +1,11 @@
 package org.openmolecules.render;
 
+import org.openmolecules.fx.sunflow.ColorProvider;
+import org.openmolecules.fx.sunflow.MyDiffuseShader;
+import org.openmolecules.fx.sunflow.MyGlassShader;
+import org.openmolecules.fx.sunflow.MyShinyDiffuseShader;
+import org.openmolecules.fx.sunflow.MyTransparencyShader;
+import org.openmolecules.fx.sunflow.MyWireframeShader;
 import org.sunflow.SunflowAPI;
 import org.sunflow.core.Display;
 import org.sunflow.core.display.FileDisplay;
