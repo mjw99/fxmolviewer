@@ -27,7 +27,7 @@
 		<javafx.version>19.0.2.1</javafx.version>
 		<mmtf.version>1.0.11</mmtf.version>
 		<openchemlib.version>2024.10.2</openchemlib.version>
-		<janino.version>2.7.4</janino.version>
+		<sunflow.version>0.07.3i</sunflow.version>
 
 
 		<!-- Use:
@@ -255,16 +255,10 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.codehaus.janino</groupId>
-			<artifactId>janino</artifactId>
-			<version>${janino.version}</version>
+		    <groupId>com.massisframework.sunflow</groupId>
+		    <artifactId>sunflow</artifactId>
+		    <version>${sunflow.version}</version>
 		</dependency>
-
-<dependency>
-    <groupId>com.massisframework.sunflow</groupId>
-    <artifactId>sunflow</artifactId>
-    <version>0.07.3i</version>
-</dependency>
 
 	</dependencies>
 	<distributionManagement>
